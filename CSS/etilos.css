@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+header,body,footer,.container{
+  font-family: 'Acme', sans-serif;
+  max-width: 90%;
+  margin: auto;
+}
+body{
+  text-align: center;
+  background-color: #252526;
+}
+header{
+  margin: auto;
+  padding: 10px;
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  color: #F2F2F2;
+  text-decoration: underline;
+  text-shadow: 2px 3px #D95204;
+}
+.container{
+  display: inline-block;
+  background-color: #F2F2F2;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: #152619;
+}
+.tarjeta{
+  display: inline-block;
+  margin-top: 20px;
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+}
+.contact{
+  display: inline-block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.card {
+  box-shadow: 0 8px 16px 0 #254029;
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 22px;
+  color: #152619;
+  text-align: center;
+  text-shadow: 2px 1px #6CAFD9;
+}
+.title {
+  color: #8C8C8C;
+  font-size: 25px;
+  font-style: oblique;
+  text-decoration: underline;
+  text-shadow: 1px 2px #1E3E59;
+}
+a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #254029;
+  text-shadow: 1px 2px #8C8C8C;
+  padding: 3px;
+}
+a:hover {
+  opacity: 0.7;
+}
